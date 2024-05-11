@@ -1,0 +1,247 @@
+body {
+  font-family: Arial;
+}
+.main {
+  border: 4px solid black;
+  background-image: url(img/bgteksture.jpg);
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(1, 1, 1, 0.8);
+  padding: 5px;
+  border: 3px solid rgba(0, 0, 206, 0.275);
+  width: 97%;
+  padding-left: 12px;
+  position: fixed;
+}
+.djr {
+  padding: 0;
+  color: rgba(255, 255, 255, 0.644);
+}
+.djr h1 {
+  margin: 2px;
+}
+.djr h1 span {
+  color: rgba(4, 236, 120, 0.644);
+}
+.mutar {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.header a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.navbar {
+  background-image: url(img/bdcode3.jpg);
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+.navbar h2 {
+  margin-top: 40px;
+  font-weight: 900;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  mix-blend-mode: difference;
+}
+.row,
+.row2 {
+  height: auto;
+}
+.title {
+  margin-top: 50px;
+  text-align: center;
+}
+.samping {
+  margin: 20px;
+  margin-left: 5px;
+  height: 500px;
+}
+.tentang {
+  float: left;
+  width: 60%;
+  border: 4px solid black;
+  height: 50%;
+}
+.gambaraku {
+  margin: 10px 0px 5px 5px;
+  float: left;
+  width: 25%;
+}
+.gambaraku img {
+  width: 100%;
+  border-radius: 50%;
+}
+.aku {
+  float: right;
+  width: 70%;
+}
+.aku h1 {
+  font-family: "freeman", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.aku h2 {
+  font-weight: 100;
+}
+.pendidikan {
+  float: right;
+  border: 4px solid black;
+  width: 38%;
+  height: 50%;
+}
+.tentang,
+.pendidikan,
+.skill,
+.video {
+  background-color: rgba(124, 157, 143, 0.542);
+  border-radius: 10px;
+}
+h4 {
+  margin: 10px 0 10px 20px;
+}
+th {
+  background-color: rgba(44, 43, 43, 0.367);
+}
+.satu {
+  width: 750px;
+  text-align: left;
+  padding: 5px;
+}
+table {
+  margin-left: 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgba(182, 181, 181, 0.367);
+}
+.skill {
+  float: left;
+  width: 60%;
+  border: 4px solid black;
+  height: 50%;
+  margin-top: 20px;
+}
+.video {
+  margin-top: 20px;
+  float: right;
+  height: 50%;
+  width: 38%;
+  border: 4px solid black;
+}
+.video-link {
+  width: 70%;
+  height: 75%;
+  margin: 0 15%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.foto {
+  margin: 50px 20px;
+}
+.alay1 {
+  border: 4px solid black;
+}
+.alay2 {
+  margin-left: 20px;
+  border: 4px solid black;
+}
+.alay1,
+.alay2 {
+  border-radius: 20px;
+}
+.form {
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form table {
+  width: 100%;
+  margin-left: 7px;
+}
+.text1 {
+  width: 80%;
+}
+.form td {
+  padding: 10px;
+}
+/* #nama {
+  width: 98%;
+}
+#alamat {
+  width: 98%;
+  height: 40px;
+} */
+.btn {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.btn input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: rgb(255, 255, 255);
+}
+input[type="submit"],
+[type="reset"] {
+  width: 100px;
+  border: 1px solid blue;
+  color: black;
+  padding: 9px 9px;
+  margin: 20px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.275);
+}
+input[type="text"],
+[type="number"],
+[type="email"],
+[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+footer {
+  color: #fff;
+  background-color: rgb(114, 187, 190);
+  padding: 15px;
+  text-align: center;
+}
+span {
+  color: black;
+  font-weight: 700;
+}
+.batu {
+  width: 30px;
+  padding: 0 500px;
+}
+footer .credit {
+  font-size: 0.8rem;
+}
+footer .socials {
+  padding: 0.5rem 0;
+}
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+footer .socials .ig :hover {
+  color: #d33187;
+}
+.fb:hover {
+  color: #3b5998;
+}
+.wa:hover {
+  color: #4ac959;
+}
